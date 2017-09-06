@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#DCDCDC</color>
+
+    <color name="color_title_bg">#29a061</color>
+    <color name="color_line_bg">#d9d9d9</color>
+    <color name="color_contact_phone">#9d9d9d</color>
+    <color name="color_line_spinner_bg">#e3e3e3</color>
+
+    <color name="color_qianhui">#afb3af</color>
+    <color name="color_normal">#FFFFFF</color>
+    <color name="color_press">#33BABABA</color>
+    <color name="color_9c">#9c9c9c</color>
+    <color name="color_fb">#fbfbfb</color>
+
+    <color name="common_purple">#777589</color>
+    <color name="common_f2f2f5">#f2f2f5</color>
+    <color name="colorTheme">#f2f2f5</color>
+    <color name="colorStatus">#cfd0d7</color>
+
+
+    <!--  font -->
+    <color name="font_color_btn_gray">#797979</color>
+    <color name="font_color_remind">#4b4c4b</color>
+    <color name="font_color_item_title">#515151</color>
+    <color name="font_color_item_second">#838383</color>
+    <color name="font_color_item_gray">#BABABA</color>
+    <color name="font_color_item_green">#7CCFA2</color>
+    <color name="font_color_item_green_light">#86C6A3</color>
+    <color name="font_color_search_btn">#ACACAC</color>
+    <color name="font_color_gray_light">#979797</color>
+    <color name="font_color_title_gray">#BCBCBC</color>
+
+    <color name="font_color_ts_light">#CECECE</color>
+    <color name="font_color_ts_gray">#B3B3B3</color>
+
+    <color name="tab_top_text_normal">#515151</color>
+    <color name="tab_top_text_focus">#7CCFA2</color>
+
+    <color name="color_login_hint_text">#c1c1c1</color>
+
+    <color name="color_chat_text_n">#A3A3A3</color>
+    <color name="color_chat_input">#838383</color>
+
+    <color name="color_gray">#ECECEC</color>
+    <color name="color_gray_form">#727373</color>
+
+    <!--  标签 -->
+    <color name="font_color_label">#A8A8A8</color>
+    <color name="color_label_bg">#F0F0F0</color>
+
+    <!--  病例库分组 -->
+    <color name="color_item_gray_bg">#F0F0F0</color>
+
+    <!--  搜索 -->
+    <color name="color_search_bg">#F3F3F3</color>
+
+
+    <!-- 统一风格背景 -->
+    <color name="color_bg">#F0F0F0</color>
+    <color name="color_tab_bg">#3FA469</color>
+
+    <!--字体颜色 -->
+    <color name="color_white">#ffffff</color>
+    <color name="color_blue">#4169e1</color>
+    <color name="color_black">#000000</color>
+    <color name="color_353535">#353535</color>
+
+    <color name="color_gray_dark">#ADADAD</color>
+    <color name="color_gray_dark_light">#C8C8C8</color>
+    <color name="color_font_green">#3FA469</color>4CAF7A
+    <color name="color_font_greenRecord">#4CAF7A</color>
+    <color name="color_font_dark">#484137</color>
+
+    <color name="color_text_darkGray">#4b4c4b</color>
+    <color name="color_text_middleGray">#7e807e</color>
+    <color name="color_text_lightGray">#afb3af</color>
+
+    <!-- 基本信息-->
+    <color name="color_basic_bg">#edf5eb</color>
+    <color name="color_basic_line_bg">#d5d5d5</color>
+
+    <color name="color_event_color">#797979</color>
+    <color name="color_date_color">#515151</color>
+
+    <color name="color_name_color">#515151</color>
+
+    <!-- 病例库 TabHost-->
+    <color name="color_tab_color_f">#7ccfa2</color>
+    <color name="color_tab_color_n">#989797</color>
+
+    <color name="transparency">#00000000</color>
+    <color name="common_item_pressed_color">#e5e5e5</color>
+
+    <color name="case_green">#6BBC90</color>
+
+    <color name="patient_info_gridview">#56B07F</color>
+    <color name="collect_color">#828382</color>
+
+    <color name="color_not_filled">#cccdcd</color>
+
+    // tabview相关颜色
+    <color name="group_item_bg">#F7FAF8</color>
+    <color name="group_item_pressed_bg">#E5E5E5</color>
+    <color name="child_item_diveder">#D6D6D5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tab_time_text_color">#6BBC90</color>
+
+    <color name="transparent_gray">#7Fcccccc</color>
+
+
+    <color name="text_title">#ff5f5f5f</color>
+    <color name="dialog_divider">#ffe8e0da</color>
+    <color name="dialog_btn_normal">#ffffff</color>
+    <color name="dialog_background">#ffffff</color>
+    <color name="dialog_btn_press">#ffece5df</color>
+    <color name="text_desc">#ffbebbb4</color>
+    <color name="text_content">#ffa19d94</color>
+    <color name="gray">#808080</color> <!-- 灰色 -->
+    <color name="black_545454">#545454</color>
+    <color name="green_super">#29a061</color>
+    <color name="color_61">#616161</color>
+
+
+    <!--图片上传-->
+    <color name="image_uploading_text">#F4D100</color>
+    <color name="image_uploading_bg">#fef0c2</color>
+
+    <color name="image_sucess_text">#30CE73</color>
+    <color name="image_sucess_bg">#C7ECD8</color>
+
+    <color name="image_recording_bg">#CCF5F2</color>
+    <color name="image_recording_text">#36DFDD</color>
+
+    <color name="image_fail_text">#FF8E8E</color>
+    <color name="image_fail_case_text">#FE6666</color>
+    <color name="image_fail_bg">#F3D7D3</color>
+
+    <color name="image_finish_text">#4ECF8A</color>
+    <color name="text_color_7d807d">#7d807d</color>
+    <color name="text_color_7d807e">#7d807e</color>
+
+    <!--新建每周报表-->
+    <color name="add_report_title">#545454</color>
+    <color name="add_report_name">#353535</color>
+    <color name="add_report_hint">#bcbcbc</color>
+    <color name="add_report_line">#dedede</color>
+    <color name="add_report_title_bg">#f4f4f4</color>
+
+    <!--我的-->
+    <color name="color_title_green">#75c69b</color>
+    <color name="address_color">#838383</color>
+    <color name="info_value">#767676</color>
+
+    <!--设置-->
+    <color name="logout_txt_color">#fe0000</color>
+    <color name="logout_corn_line_color">#d3d3d3</color>
+
+    <!--我的录入明细-->
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_eoeoeo">#e0e0e0</color>
+    <color name="color_dedede">#dedede</color>
+    <color name="color_d0d0d0">#d0d0d0</color>
+    <color name="light_green_94">#94cfb0</color>
+    <color name="light_green_ec">#ecfff5</color>
+    <color name="gray_bababa">#bababa</color>
+    <color name="color_999999">#999999</color>
+    <color name="gray_ababab">#ababab</color>
+    <color name="red_e40">#e40000</color>
+
+    <!--登录-->
+    <color name="login_bg_color">#1d000000</color>
+    <color name="login_item_bg_color">#19ffffff</color>
+    <color name="bg_f4">#f4f4f4</color>
+    <color name="red_corn_bg">#ff5757</color>
+
+    <color name="color_cecdcd">#cecdcd</color>
+    <color name="pre_value_color">#767676</color>
+    <color name="color_cd">#cdcdcd</color>
+    <color name="color_29">#29a061</color>
+
+    <color name="red_color_fe0">#fe0000</color>
+    <color name="gray_color_a8">#a8a8a8</color>
+
+    <!--通讯录 fragment-->
+    <color name="contact_color_first">#6594E6</color>
+    <color name="contact_color_second">#4BC680</color>
+
+    <color name="contact_color_one">#66585F</color>
+    <color name="contact_color_two">#618365</color>
+    <color name="contact_color_three">#DBBFAF</color>
+    <color name="contact_color_four">#DBE49C</color>
+    <color name="contact_color_five">#F9CA9C</color>
+    <color name="contact_color_six">#C4D9C4</color>
+
+
+    <!--手机通讯录-->
+    <color name="contact_color_phone_one">#D7C1D8</color>
+    <color name="contact_color_phone_two">#F0A794</color>
+    <color name="contact_color_phone_three">#7AA4DD</color>
+    <color name="contact_color_phone_four">#FFD141</color>
+    <color name="contact_color_phone_five">#67C597</color>
+    <color name="contact_color_phone_six">#C8719D</color>
+    <color name="contact_color_phone_seven">#5CB7B2</color>
+    <color name="contact_color_phone_eight">#FC6777</color>
+
+    <!--单位通讯录-->
+    <color name="contact_color_company_one">#D7C1D7</color>
+    <color name="contact_color_company_two">#DCDCDC</color>
+    <!--pro-->
+    <color name="pro_radio_color">#a8a379</color>
+    <color name="process_radio_color">#ffc618</color>
+    <color name="end_radio_color">#ff8518</color>
+    <color name="all_radio_color">#00aadd</color>
+    <color name="color_9d9d">#9d9d9d</color>
+    <color name="random_color_66585f">#66585f</color>
+    <color name="random_color_618365">#618365</color>
+    <color name="random_color_dbbfaf">#dbbfaf</color>
+    <color name="random_color_dbe49c">#dbe49c</color>
+    <color name="random_color_c4d9cd">#c4d9cd</color>
+    <color name="random_color_f9ca9c">#f9ca9c</color>
+    <color name="core_hospital_class">#168148</color>
+
+    <!--消息列表随机颜色-->
+    <color name="message_color_one">#66585f</color>
+    <color name="message_color_two">#618365</color>
+    <color name="message_color_three">#dbbfaf</color>
+    <color name="message_color_four">#dbc49c</color>
+    <color name="message_color_five">#c4d9cd</color>
+    <color name="message_color_six">#f9ca9c</color>
+
+    <!--消息列表次级通知列表页面图标的背景颜色-->
+    <color name="notice_color_lx">#a8a379</color>
+    <color name="notice_color_zx">#72a951</color>
+    <color name="notice_color_ry">#006d30</color>
+    <color name="notice_color_ht">#a9a379</color>
+    <color name="notice_color_bj">#006d30</color>
+    <color name="notice_color_lrmx">#ffcd1d</color>
+    <color name="notice_color_zb">#ffb80b</color>
+    <color name="notice_color_gbxm">#ff8518</color>
+    <color name="notice_color_rb">#ffb80b</color>
+    <color name="notice_color_xmjz">#ff9804</color>
+
+    <!--头像背景bgcolor为空的时候替换-->
+    <color name="defualt_color">#d1d1d1</color>
+    <color name="color_7676">#767676</color>
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MVP测试</string>
+    <string name="chose_project">选择项目</string>
+    <string name="chose_group">请选择分组</string>
+    <string name="chose_group_title">选择分组</string>
+    <string name="cancle">取消</string>
+    <string name="chose_person">选择人员</string>
+    <string name="chose_project_title">请选择项目</string>
+    <string name="add_cpntact">新建联系人</string>
+    <string name="input_right_phone_num">请输入正确的手机号</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="input_company">请输入单位</string>
+    <string name="person_info_detail">个人信息详情</string>
+    <string name="person_info">个人信息</string>
+    <string name="search_history_empty">暂无搜索历史</string>
+    <string name="change">更改</string>
+    <string name="chose_member">请选择人员</string>
+    <string name="related_cases">相关工作经验</string>
+    <string name="not_activated">未激活</string>
+    <string name="not_choosed">未选择</string>
+    <string name="delete_project_progress">确定删除项目进展？</string>
+    <string name="fill_screen">请输入本周筛选数</string>
+    <string name="fill_random">请输入本周随机数</string>
+    <string name="fill_sae">请输入本周SAE数</string>
+    <string name="chose_center">请选择中心</string>
+</resources>

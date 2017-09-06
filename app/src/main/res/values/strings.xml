@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">MVP测试</string>
+
+    <string name="tab_new">新建</string>
+    <string name="tab_report">报表</string>
+    <string name="tab_message">消息</string>
+    <string name="tab_contact">通讯录</string>
+    <string name="tab_project">项目</string>
+    <string name="tab_me">我的</string>
+    <string name="please_wait">敬请期待...</string>
+    <string name="to_download_detail">请到公司内网，下载EXCEL</string>
+    <string name="donload_url">
+        网址：https://crcin.medbanks.cn
+    </string>
+    <string name="weekly_report_sum_title">周报汇总</string>
+    <string name="input_sum_detail_title">录入明细汇总</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="submit">确定</string>
+
+    <!--新建每周报告-->
+    <string name="add_report_title">新建每周报告</string>
+    <string name="week_report">每周报告</string>
+    <string name="input_detail">录入明细</string>
+
+    <string name="add_report_db">数据库</string>
+    <string name="add_report_department">中心</string>
+    <string name="add_report_time">时间:</string>
+    <string name="add_report_week">星期几:</string>
+    <string name="add_report_detail">详情</string>
+    <string name="add_report_other">备注</string>
+    <string name="add_report_week_plan">本周计划</string>
+    <string name="add_report_week_summary">上周总结</string>
+
+    <string name="detail_case_count">周计划录入病例数:</string>
+    <string name="detail_course_count">周计划录入病程数:</string>
+    <string name="detail_new_case_count">周新增病例数:</string>
+    <string name="detail_new_course_count">周新增病程数:</string>
+    <string name="detail_fill_case_count">周完善病例数:</string>
+    <string name="detail_fill_course_count">周完善病程数:</string>
+
+    <!--<string name="hint_detail_case_count">请输入计划录入病例数</string>-->
+    <!--<string name="hint_detail_course_count">请输入计划录入病程数</string>-->
+    <!--<string name="hint_detail_new_case_count">请输入新增病例数</string>-->
+    <!--<string name="hint_detail_new_course_count">请输入新增病程数</string>-->
+    <!--<string name="hint_detail_fill_case_count">请输入完善病例数</string>-->
+    <!--<string name="hint_detail_fill_course_count">请输入完善病程数</string>-->
+    <string name="hint_detail_case_count">请输入</string>
+    <string name="hint_detail_course_count">请输入</string>
+    <string name="hint_detail_new_case_count">请输入</string>
+    <string name="hint_detail_new_course_count">请输入</string>
+    <string name="hint_detail_fill_case_count">请输入</string>
+    <string name="hint_detail_fill_course_count">请输入</string>
+    <!--、end-->
+    <!--新建录入明细-->
+
+    <string name="add_input_title">新建录入明细</string>
+    <string name="input_pid">PID:</string>
+    <string name="input_pid_state">状态:</string>
+    <string name="input_course_count">病程数:</string>
+    <string name="input_course_state">状态:</string>
+    <string name="input_remark">备注:</string>
+
+    <string name="input_hint_pid">请输入</string>
+    <string name="input_hint_course">请输入</string>
+
+    <!--、end-->
+    <string name="week_report_name">每周报告</string>
+    <string name="input_detail_name">录入明细</string>
+    <!--我的-->
+    <string name="me_week_report">我的每周报告</string>
+    <string name="me_input_detail">我的录入明细</string>
+    <string name="avatar">头像</string>
+    <string name="name">姓名</string>
+    <string name="phone">手机</string>
+    <string name="post">职务</string>
+    <string name="area">地区</string>
+    <string name="base_info">基本信息</string>
+
+    <!--设置-->
+    <string name="setting">设置</string>
+    <string name="current_version_str">当前版本号</string>
+    <string name="change_secret">修改密码</string>
+    <string name="about_pai">关于派工作</string>
+    <string name="secret_deal">隐私与协议</string>
+    <string name="good_point">赏个好评吧</string>
+    <string name="connet_us">联系我们</string>
+    <string name="current_version">软件版本</string>
+    <string name="log_out">退出当前账号</string>
+    <string name="pai_introduction">\u3000\u3000派工作是思派科技开发的CRC管理平台，方便对CRC成员进行人员和进度管理。</string>
+    <string name="secret_deal_title">派工作软件隐私和服务协议</string>
+    <string name="connet_us_email">请发邮件\nsupport@medbanks.cn</string>
+    <string name="logout_introduce">确定要退出当前账号？</string>
+    <string name="current_secret_hint">请输入当前密码</string>
+    <string name="next_step">下一步</string>
+    <string name="new_secret">新密码</string>
+    <string name="submit_secret">再次输入密码</string>
+    <string name="fill">完成</string>
+    <string name="change_login_secret">重设登录密码</string>
+    <string name="reset_login_pwd">重设登录密码</string>
+
+    <!--about pullto refresh-->
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_loading">正在加载...</string>
+    <string name="nomore_loading">没有更多数据了</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+    <string name="time_ganggang">刚刚</string>
+    <string name="time_nianqian">年前</string>
+    <string name="time_yueqian">月前</string>
+    <string name="time_tianqian">天前</string>
+    <string name="time_xiaoshiqian">小时前</string>
+    <string name="time_fenzhongqian">分钟前</string>
+    <string name="time_miaoqian">秒前</string>
+
+    <!--我的录入明细-->
+    <string name="mid_pid">PID</string>
+    <string name="mid_status">状态</string>
+    <string name="mid_course_count">病程数</string>
+    <string name="mid_other">操作</string>
+    <string name="mid_check"><u>查看</u></string>
+
+    <string name="add_new">新增</string>
+    <string name="complete">完善</string>
+    <string name="followup">随访</string>
+    <string name="login">登录</string>
+    <string name="phone_number">手机号</string>
+    <string name="secret_number">密码</string>
+    <string name="forget_secrect">忘记密码？</string>
+    <string name="find_secret_title">找回登录密码</string>
+    <string name="input_phone_numb">请输入手机号</string>
+    <string name="input_check_numb">请输入验证码</string>
+    <string name="get_check_numb">获取验证码</string>
+
+    <string name="ps_input_right_phone_number">请输入正确的手机号</string>
+    <string name="ps_input_right_secret">密码需要在6-20位之间</string>
+
+    <string name="ps_wait">请稍候...</string>
+    <string name="loading">正在登录</string>
+    <string name="no_network">无法连接网络，稍后重试</string>
+    <string name="ps_select_db">请选择中心</string>
+    <string name="cant_be_empty">密码不能为空</string>
+    <string name="check_phone">请输入注册的手机号</string>
+    <string name="which_week">第几周</string>
+    <string name="week_report_detail_titel">周报详情</string>
+    <string name="edit">编辑</string>
+    <string name="edit_week_report">编辑周报</string>
+    <string name="delete">删除</string>
+    <string name="reale_to_delete_week_report">确定删除该周报？</string>
+    <string name="view_input_detial">查看录入明细</string>
+    <string name="edit_input_detail">编辑录入明细</string>
+    <string name="realy_to_delte_input_detail">确定删除该录入明细？</string>
+    <string name="click_to_enter">点击进入</string>
+    <string name="the_week">第%s周</string>
+    <string name="the_week_plan">第%s周计划</string>
+    <string name="phone_name">手机：</string>
+    <string name="outoff">最多输入100个字</string>
+    <string name="no_message">暂无信息</string>
+    <string name="no_data">暂无数据</string>
+    <string name="uninput">未填</string>
+    <string name="update_title">有新的版本，确认更新？</string>
+
+    <string name="add_input_detail">添加录入明细</string>
+    <string name="add_input_add">+</string>
+    <string name="deleted_input_detail">该录入明细已删除</string>
+    <string name="phone_contact">手机通讯录</string>
+    <string name="company_contact">单位通讯录</string>
+
+    <string name="view_id">id</string>
+    <string name="chose_project">选择项目</string>
+    <string name="chose_group">请选择分组</string>
+    <string name="chose_group_title">选择分组</string>
+    <string name="cancle">取消</string>
+    <string name="chose_person">选择人员</string>
+    <string name="chose_project_title">请选择项目</string>
+    <string name="add_cpntact">新建联系人</string>
+    <string name="input_right_phone_num">请输入正确的手机号</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="input_company">请输入单位</string>
+    <string name="person_info_detail">个人信息详情</string>
+    <string name="person_info">个人信息</string>
+    <string name="search_history_empty">暂无搜索历史</string>
+    <string name="change">更改</string>
+    <string name="auto_create">此处自动生成</string>
+
+
+    <!--tag-->
+    <item name="item_type" type="id"></item>
+    <item name="item_id" type="id"></item>
+
+    <!--project-->
+    <string name="project_start">立项中</string>
+    <string name="project_processing">进行中</string>
+    <string name="project_end">结束</string>
+    <string name="project_all">全部</string>
+    <string name="project_add_project">新建项目</string>
+    <string name="project_add_server">提交</string>
+    <string name="project_add_people">添加</string>
+    <string name="project_add_auto_create">此处自动生成</string>
+    <string name="no_power">没有权限</string>
+    <string name="pro_status">项目状态</string>
+    <string name="pro_sign_money">合同签署金额（元）</string>
+    <string name="pro_vote_money">累计开票金额（元）</string>
+    <string name="pro_payment_money">累计回款金额（元）</string>
+    <string name="pro_other">备注</string>
+    <string name="close_pro">关闭项目</string>
+    <string name="core_list">中心列表</string>
+    <string name="chose_member">请选择人员</string>
+    <!--project end-->
+
+    <string-array name="pop_photo">
+        <item>拍照</item>
+        <item>从手机相册中选择</item>
+    </string-array>
+    <string name="real_to_delete">确定要删除吗？</string>
+    <string name="related_cases">相关工作经验</string>
+    <string name="remark">备注</string>
+    <string name="not_activated">未激活</string>
+    <string name="not_choosed">未选择</string>
+    <string name="not_filled">未填</string>
+    <string name="delete_project_progress">确定删除项目进展？</string>
+    <string name="fill_screen">请输入本周筛选数</string>
+    <string name="fill_random">请输入本周随机数</string>
+    <string name="fill_sae">请输入本周SAE数</string>
+    <string name="chose_center">请选择中心</string>
+</resources>

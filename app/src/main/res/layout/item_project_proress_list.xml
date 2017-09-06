@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/margin_size_15dp"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/project_progress_shape_corner"
+        android:orientation="vertical">
+
+        <!--中心-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_44dp"
+            android:layout_marginTop="@dimen/margin_size_2dp"
+            android:background="@drawable/critical_time_shape_corner_up"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_size_15dp"
+                android:background="@mipmap/hospital_icon"
+                android:textColor="@color/color_353535"
+                android:textSize="@dimen/font_size_14sp"/>
+
+            <TextView
+                android:id="@+id/tv_center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_size_10dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/color_353535"
+                android:textSize="@dimen/font_size_15sp"/>
+
+            <TextView
+                android:id="@+id/tv_researcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_size_8dp"
+                android:layout_toLeftOf="@+id/iv_direct"
+                android:text=""
+                android:textColor="@color/color_353535"
+                android:textSize="@dimen/font_size_15sp"
+                android:visibility="visible"/>
+
+            <ImageView
+                android:id="@+id/iv_direct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_size_15dp"
+                android:contentDescription=""
+                android:src="@mipmap/btn_next"/>
+
+        </LinearLayout>
+
+        <!--数据-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_101dp"
+            android:background="@drawable/critical_time_shape_corner_down"
+            android:orientation="horizontal">
+
+            <!--周-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxEms="10"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/color_353535"
+                    android:textSize="@dimen/font_size_21sp"/>
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_size_3dp"
+                    android:ellipsize="end"
+                    android:maxEms="10"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/gray_ababab"
+                    android:textSize="@dimen/font_size_13sp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.8dp"
+                android:layout_height="@dimen/margin_size_70dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color_eoeoeo"/>
+
+            <!--数量-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <!--筛选数-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="本周筛选数："
+                        android:textColor="@color/color_353535"
+                        android:textSize="@dimen/font_size_15sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_chose_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_5dp"
+                        android:ellipsize="end"
+                        android:maxEms="15"
+                        android:maxLines="1"
+                        android:text=""
+                        android:textColor="@color/red_color_fe0"
+                        android:textSize="@dimen/font_size_15sp"/>
+                </LinearLayout>
+
+                <!--随机数-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin_size_8dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="本周随机数："
+                        android:textColor="@color/color_353535"
+                        android:textSize="@dimen/font_size_15sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_random_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_5dp"
+                        android:ellipsize="end"
+                        android:maxEms="15"
+                        android:maxLines="1"
+                        android:text=""
+                        android:textColor="@color/red_color_fe0"
+                        android:textSize="@dimen/font_size_15sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin_size_8dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="本周SAE数："
+                        android:textColor="@color/color_353535"
+                        android:textSize="@dimen/font_size_15sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_sae_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin_size_8dp"
+                        android:text=""
+                        android:textColor="@color/red_color_fe0"
+                        android:textSize="@dimen/font_size_15sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
