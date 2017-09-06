@@ -1,5 +1,6 @@
 package zhao.siqi.mvptestdemo.view;
 
+import android.content.Context;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -58,7 +59,7 @@ public class MainActivity extends BaseActivity implements MainContract.View {
         int projectID = 181;
 
         // 建立View和presenter的关系
-        new MainPresenter(this, projectID, context);
+        presenter = new MainPresenter(this, projectID, context);
 
         // 请求网络数据
         presenter.loadData();
@@ -67,16 +68,6 @@ public class MainActivity extends BaseActivity implements MainContract.View {
     @Override
     protected void onResume() {
         super.onResume();
-    }
-
-    /**
-     * 得到对应的presenter对象
-     *
-     * @param presenter
-     */
-    @Override
-    public void setPresenter(MainContract.Presenter presenter) {
-        this.presenter = presenter;
     }
 
     /**
@@ -104,5 +95,10 @@ public class MainActivity extends BaseActivity implements MainContract.View {
             mListView.setVisibility(View.VISIBLE);
             noMessage.setVisibility(View.GONE);
         }
+    }
+
+    @Override
+    public Context getViewContext() {
+        return null;
     }
 }
