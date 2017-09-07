@@ -60,7 +60,9 @@ public abstract class BaseActivity<P extends BaseContract.BasePresenter<V>, V ex
 
     protected abstract void initView();
 
-    protected abstract void initListeners();
+    protected void initListeners() {
+
+    }
 
     protected void initData() {
 

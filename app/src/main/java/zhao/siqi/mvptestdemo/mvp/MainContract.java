@@ -11,7 +11,6 @@ import zhao.siqi.mvptestdemo.bean.ProjectProgressList;
  * <p>
  * Created by Bill on 2017/9/5.
  */
-
 public interface MainContract {
 
     /**
@@ -19,7 +18,7 @@ public interface MainContract {
      */
     interface View extends BaseView<Presenter> {
 
-        void setDataToView(List<ProjectProgressList.DataBean> mData);
+        void setDataToAdapter(List<ProjectProgressList.DataBean> mData);
 
         void refreshView();
     }
@@ -28,6 +27,8 @@ public interface MainContract {
      * 数据和逻辑操作
      */
     interface Presenter extends BasePresenter {
+
         void loadDataFromServer();
+
     }
 }

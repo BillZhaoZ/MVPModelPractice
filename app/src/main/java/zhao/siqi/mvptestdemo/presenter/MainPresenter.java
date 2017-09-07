@@ -17,13 +17,11 @@ import static zhao.siqi.mvptestdemo.mvp.MainContract.View;
  * p层   数据处理层，所有的数据逻辑，业务逻辑都在这里处理；责完成View于Model间的交互
  * Created by Bill on 2017/9/5.
  */
-
 public class MainPresenter implements MainContract.Presenter {
 
     private int mProId;
     private Context mContext;
     private ProjectProgressListModel model;
-
     private MainContract.View mView;
 
     public MainPresenter(View mainView, int proId, Context contex) {
@@ -33,6 +31,7 @@ public class MainPresenter implements MainContract.Presenter {
 
         this.model = new ProjectProgressListModel();
 
+        // 建立View和presenter关系
         mView.setPresenter(this);
     }
 
@@ -45,18 +44,13 @@ public class MainPresenter implements MainContract.Presenter {
     @Override
     public void loadDataFromServer() {
 
-        // 请求网络
+        // 请求网络   在model进行  回调返回数据
         model.loadData(mProId, mContext, new IDataToPresenter() {
-           /* @Override
-            public void onSuccess(List<ProjectProgressList.DataBean> mData) {
-
-
-            }*/
 
             @Override
             public void onSuccess(Object mData) {
                 // 设置数据给view层
-                mView.setDataToView((List<ProjectProgressList.DataBean>) mData);
+                mView.setDataToAdapter((List<ProjectProgressList.DataBean>) mData);
             }
 
             @Override

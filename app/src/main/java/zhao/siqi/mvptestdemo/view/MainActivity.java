@@ -33,18 +33,13 @@ public class MainActivity extends BaseActivity implements MainContract.View {
     TextView noMessage;
 
     private ProjectProgressListAdapter mAdapter;
-    List<ProjectProgressList.DataBean> mDataBeanList = new ArrayList<>();
-    MainContract.Presenter presenter;
+    private List<ProjectProgressList.DataBean> mDataBeanList = new ArrayList<>();
+    private MainContract.Presenter presenter;
 
     @Override
     protected void initView() {
         mAdapter = new ProjectProgressListAdapter(context);
         mListView.setAdapter(mAdapter);
-    }
-
-    @Override
-    protected void initListeners() {
-
     }
 
     @Override
@@ -76,9 +71,8 @@ public class MainActivity extends BaseActivity implements MainContract.View {
      * @param mData
      */
     @Override
-    public void setDataToView(List<ProjectProgressList.DataBean> mData) {
+    public void setDataToAdapter(List<ProjectProgressList.DataBean> mData) {
         mAdapter.setData(mData);
-
         mDataBeanList = mData;
     }
 

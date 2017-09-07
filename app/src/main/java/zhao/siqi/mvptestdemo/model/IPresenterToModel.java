@@ -9,6 +9,8 @@ import zhao.siqi.mvptestdemo.interfaces.IDataToPresenter;
  * Created by Bill on 2017/9/7.
  */
 
-public interface IpresenterToModel {
+public interface IPresenterToModel {
+
     void loadData(int id, Context context, IDataToPresenter iDataToPresenter);
+
 }

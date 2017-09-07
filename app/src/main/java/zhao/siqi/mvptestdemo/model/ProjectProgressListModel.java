@@ -19,7 +19,7 @@ import zhao.siqi.mvptestdemo.network.NetResponseListener;
  * <p>
  * Created by Bill on 2017/9/7.
  */
-public class ProjectProgressListModel implements IpresenterToModel {
+public class ProjectProgressListModel implements IPresenterToModel {
 
     /**
      * 加载项目进展列表
