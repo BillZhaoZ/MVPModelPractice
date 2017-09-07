@@ -12,7 +12,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import zhao.siqi.mvptestdemo.R;
-import zhao.siqi.mvptestdemo.model.ProjectProgressList;
+import zhao.siqi.mvptestdemo.bean.ProjectProgressList;
 import zhao.siqi.mvptestdemo.util.DateUtils;
 import zhao.siqi.mvptestdemo.util.ToastU;
 

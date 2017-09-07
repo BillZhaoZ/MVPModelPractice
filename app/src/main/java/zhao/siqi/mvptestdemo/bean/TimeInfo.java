@@ -1,4 +1,4 @@
-package zhao.siqi.mvptestdemo.model;
+package zhao.siqi.mvptestdemo.bean;
 
 public class TimeInfo {
     private long startTime;

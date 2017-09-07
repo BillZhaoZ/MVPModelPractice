@@ -1,4 +1,4 @@
-package zhao.siqi.mvptestdemo.model;
+package zhao.siqi.mvptestdemo.bean;
 
 
 import zhao.siqi.mvptestdemo.network.MResponse;

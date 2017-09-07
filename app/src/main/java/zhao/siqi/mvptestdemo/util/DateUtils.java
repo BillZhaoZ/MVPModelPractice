@@ -9,7 +9,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-import zhao.siqi.mvptestdemo.model.TimeInfo;
+import zhao.siqi.mvptestdemo.bean.TimeInfo;
 
 import static com.blankj.utilcode.utils.TimeUtils.isSameDay;
 

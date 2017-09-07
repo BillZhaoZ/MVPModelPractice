@@ -3,6 +3,9 @@ package zhao.siqi.mvptestdemo.base;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
+/**
+ * contract基类
+ */
 public interface BaseContract {
 
     interface BaseInteractor {

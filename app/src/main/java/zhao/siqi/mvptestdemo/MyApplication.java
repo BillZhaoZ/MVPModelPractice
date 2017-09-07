@@ -7,7 +7,7 @@ import com.google.gson.Gson;
 
 import org.xutils.x;
 
-import zhao.siqi.mvptestdemo.model.UserInfoBean;
+import zhao.siqi.mvptestdemo.bean.UserInfoBean;
 import zhao.siqi.mvptestdemo.util.ValueStorage;
 
 /**

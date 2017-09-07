@@ -1,6 +1,5 @@
 package zhao.siqi.mvptestdemo.view;
 
-import android.content.Context;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -11,7 +10,8 @@ import java.util.List;
 import butterknife.BindView;
 import zhao.siqi.mvptestdemo.R;
 import zhao.siqi.mvptestdemo.base.BaseActivity;
-import zhao.siqi.mvptestdemo.model.ProjectProgressList;
+import zhao.siqi.mvptestdemo.bean.ProjectProgressList;
+import zhao.siqi.mvptestdemo.mvp.MainContract;
 import zhao.siqi.mvptestdemo.presenter.MainPresenter;
 import zhao.siqi.mvptestdemo.view.adapter.ProjectProgressListAdapter;
 
@@ -59,15 +59,15 @@ public class MainActivity extends BaseActivity implements MainContract.View {
         int projectID = 181;
 
         // 建立View和presenter的关系
-        presenter = new MainPresenter(this, projectID, context);
+        new MainPresenter(this, projectID, context);
 
         // 请求网络数据
-        presenter.loadData();
+        presenter.loadDataFromServer();
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
+    public void setPresenter(MainContract.Presenter presenter) {
+        this.presenter = presenter;
     }
 
     /**
@@ -76,7 +76,7 @@ public class MainActivity extends BaseActivity implements MainContract.View {
      * @param mData
      */
     @Override
-    public void setView(List<ProjectProgressList.DataBean> mData) {
+    public void setDataToView(List<ProjectProgressList.DataBean> mData) {
         mAdapter.setData(mData);
 
         mDataBeanList = mData;
@@ -95,10 +95,5 @@ public class MainActivity extends BaseActivity implements MainContract.View {
             mListView.setVisibility(View.VISIBLE);
             noMessage.setVisibility(View.GONE);
         }
-    }
-
-    @Override
-    public Context getViewContext() {
-        return null;
     }
 }
