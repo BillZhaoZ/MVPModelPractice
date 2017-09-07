@@ -198,7 +198,6 @@ public abstract class BaseActivity<P extends BaseContract.BasePresenter<V>, V ex
             return false;
         }
     }
-
     private CustomProgressDialog progressDialog;
 
     public void startProgressDialog(String tip) {

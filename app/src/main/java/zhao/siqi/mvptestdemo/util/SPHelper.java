@@ -11,6 +11,7 @@ import zhao.siqi.mvptestdemo.MyApplication;
  *@创建时间 2012 下午3:27:05
  */
 public class SPHelper {
+
 	//========================== SharedPreferences key =========================
 	public final static String SHAREPREFERENCES_NAME = "com.newborntown.android.solo.fitness.SharedPreferences";
 	
