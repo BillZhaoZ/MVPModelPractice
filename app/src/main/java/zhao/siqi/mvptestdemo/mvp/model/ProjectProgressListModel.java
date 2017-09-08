@@ -1,4 +1,4 @@
-package zhao.siqi.mvptestdemo.model;
+package zhao.siqi.mvptestdemo.mvp.model;
 
 import android.content.Context;
 
@@ -12,6 +12,7 @@ import zhao.siqi.mvptestdemo.interfaces.IDataToPresenter;
 import zhao.siqi.mvptestdemo.network.MResponse;
 import zhao.siqi.mvptestdemo.network.NetRequestUtil;
 import zhao.siqi.mvptestdemo.network.NetResponseListener;
+
 
 /**
  * model层  进行数据的处理

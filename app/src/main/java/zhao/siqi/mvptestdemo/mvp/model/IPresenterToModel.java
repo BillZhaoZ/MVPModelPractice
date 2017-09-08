@@ -1,4 +1,4 @@
-package zhao.siqi.mvptestdemo.model;
+package zhao.siqi.mvptestdemo.mvp.model;
 
 import android.content.Context;
 

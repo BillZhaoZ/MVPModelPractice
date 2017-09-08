@@ -1,4 +1,4 @@
-package zhao.siqi.mvptestdemo.presenter;
+package zhao.siqi.mvptestdemo.mvp.presenter;
 
 import android.content.Context;
 
@@ -8,10 +8,10 @@ import java.util.List;
 
 import zhao.siqi.mvptestdemo.bean.ProjectProgressList;
 import zhao.siqi.mvptestdemo.interfaces.IDataToPresenter;
-import zhao.siqi.mvptestdemo.model.ProjectProgressListModel;
-import zhao.siqi.mvptestdemo.mvp.MainContract;
+import zhao.siqi.mvptestdemo.mvp.contract.MainContract;
+import zhao.siqi.mvptestdemo.mvp.model.ProjectProgressListModel;
 
-import static zhao.siqi.mvptestdemo.mvp.MainContract.View;
+import static zhao.siqi.mvptestdemo.mvp.contract.MainContract.View;
 
 /**
  * p层   数据处理层，所有的数据逻辑，业务逻辑都在这里处理；责完成View于Model间的交互

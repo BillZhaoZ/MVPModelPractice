@@ -1,4 +1,4 @@
-package zhao.siqi.mvptestdemo.mvp;
+package zhao.siqi.mvptestdemo.mvp.contract;
 
 import java.util.List;
 

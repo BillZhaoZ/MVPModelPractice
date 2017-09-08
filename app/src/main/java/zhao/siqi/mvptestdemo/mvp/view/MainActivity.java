@@ -11,7 +11,7 @@ import butterknife.BindView;
 import zhao.siqi.mvptestdemo.R;
 import zhao.siqi.mvptestdemo.base.BaseActivity;
 import zhao.siqi.mvptestdemo.bean.ProjectProgressList;
-import zhao.siqi.mvptestdemo.mvp.MainContract;
+import zhao.siqi.mvptestdemo.mvp.contract.MainContract;
 import zhao.siqi.mvptestdemo.presenter.MainPresenter;
 import zhao.siqi.mvptestdemo.view.adapter.ProjectProgressListAdapter;
 
