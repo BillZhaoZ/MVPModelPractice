@@ -1,5 +1,4 @@
-
-package zhao.siqi.mvptestdemo.view.adapter;
+package zhao.siqi.mvptestdemo.mvp.view.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -85,12 +84,7 @@ public class ProjectProgressListAdapter extends BaseAdapter {
         holder.tv_sae_num.setText(project.getSae_num());
 
         // 点击查看
-        convertView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ToastU.showLongToast("点我啦。。。。。。。");
-            }
-        });
+        convertView.setOnClickListener(v -> ToastU.showLongToast("点我啦。。。。。。。"));
 
         return convertView;
     }

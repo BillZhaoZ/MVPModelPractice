@@ -67,7 +67,6 @@ public class MainPresenter implements MainContract.Presenter {
             public void onCancelled(Callback.CancelledException cex) {
 
             }
-
         });
     }
 

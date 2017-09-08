@@ -1,4 +1,4 @@
-package zhao.siqi.mvptestdemo.view;
+package zhao.siqi.mvptestdemo.mvp.view;
 
 import android.view.View;
 import android.widget.ListView;
@@ -12,8 +12,8 @@ import zhao.siqi.mvptestdemo.R;
 import zhao.siqi.mvptestdemo.base.BaseActivity;
 import zhao.siqi.mvptestdemo.bean.ProjectProgressList;
 import zhao.siqi.mvptestdemo.mvp.contract.MainContract;
-import zhao.siqi.mvptestdemo.presenter.MainPresenter;
-import zhao.siqi.mvptestdemo.view.adapter.ProjectProgressListAdapter;
+import zhao.siqi.mvptestdemo.mvp.presenter.MainPresenter;
+import zhao.siqi.mvptestdemo.mvp.view.adapter.ProjectProgressListAdapter;
 
 /**
  * View不直接与Model交互，而是通过与Presenter交互来与Model间接交互。Presenter与View的交互是通过接口来进行的。
